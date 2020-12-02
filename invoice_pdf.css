@@ -49,7 +49,7 @@ svg {
   font-size: var(--page-size-font-large);
 }
 
-h2 {
+h2, h3 {
   display: inline-block;
   font-weight: 600;
 }
