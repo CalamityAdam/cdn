@@ -1,4 +1,4 @@
-html {
+:root {
   --page-width: 8.5in;
   --page-height: 11in;
   --page-flow: 8px;
@@ -9,6 +9,9 @@ html {
   --gray50: '#8e999e';
   --gray60: '#69757a';
   --green60: '#24a344';
+}
+
+html {
   background-color: var(--white);
   font-family: canada-type-gibson, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,8 +24,8 @@ html {
 }
 
 * {
-  font-size: var(--page-size-font);
   box-sizing: border-box;
+  font-size: var(--page-size-font);
 }
 
 .page-Section {
@@ -37,13 +40,13 @@ html {
 }
 
 .page-Section-heading {
-  margin-right: 16;
+  margin-right: 16px;
   font-size: var(--page-size-font-large);
 }
 
 .page-Type {
   display: block;
-  margin-right: 72;
+  margin-right: 72px;
   margin-bottom: 8px;
   white-space: nowrap;
 }
@@ -60,7 +63,7 @@ html {
 }
 
 .page-Math {
-  padding: 16 32;
+  padding: 16px 32px;
   width: 100%;
 }
 
@@ -89,6 +92,6 @@ html {
 
 .page--money {
   color: var(--green60);
-  font-size: 24;
+  font-size: 24pt;
   font-weight: 600;
 }
