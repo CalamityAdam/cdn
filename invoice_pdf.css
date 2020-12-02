@@ -6,6 +6,7 @@
   --page-size-font: 12pt;
   --page-size-font-large: 16pt;
   --white: #fff;
+  --blue: #35aee4;
   --gray50: #8e999e;
   --gray60: #69757a;
   --green60: #24a344;
@@ -15,6 +16,10 @@ html {
   background-color: var(--white);
   font-family: canada-type-gibson, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+svg {
+  color: #35aee4;
 }
 
 .pro-Page {
@@ -42,6 +47,11 @@ html {
 .page-Section-heading {
   margin-right: 16px;
   font-size: var(--page-size-font-large);
+}
+
+h2 {
+  display: inline-block;
+  font-weight: 600;
 }
 
 .page-Type {
