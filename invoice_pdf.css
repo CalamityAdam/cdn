@@ -1,0 +1,94 @@
+html {
+  --page-width: 8.5in;
+  --page-height: 11in;
+  --page-flow: 8px;
+  --page-size-font-small: 10pt;
+  --page-size-font: 12pt;
+  --page-size-font-large: 16pt;
+  --white: '#fff';
+  --gray50: '#8e999e';
+  --gray60: '#69757a';
+  --green60: '#24a344';
+  background-color: var(--white);
+  font-family: canada-type-gibson, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.pro-Page {
+  display: block;
+  position: relative;
+  background-color: var(--white);
+}
+
+* {
+  font-size: var(--page-size-font);
+  box-sizing: border-box;
+}
+
+.page-Section {
+  display: block;
+  width: 100%;
+}
+
+.page-Section::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.page-Section-heading {
+  margin-right: 16;
+  font-size: var(--page-size-font-large);
+}
+
+.page-Type {
+  display: block;
+  margin-right: 72;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.page-Type-heading {
+  display: block;
+  text-transform: uppercase;
+  color: var(--gray60);
+  font-size: var(--page-size-font-small);
+}
+
+.page-Type-body {
+  display: block;
+}
+
+.page-Math {
+  padding: 16 32;
+  width: 100%;
+}
+
+.page-Math-divider {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 0;
+  background-color: var(--gray50);
+  width: 100%;
+  height: 1px;
+}
+
+.page-Math-doubleDivider {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-top: 1px solid var(--gray50);
+  border-right: 0;
+  border-bottom: 1px solid var(--gray50);
+  border-left: 0;
+  padding-top: 1px;
+}
+
+.page--bold {
+  font-weight: 600;
+}
+
+.page--money {
+  color: var(--green60);
+  font-size: 24;
+  font-weight: 600;
+}
