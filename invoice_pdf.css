@@ -22,6 +22,12 @@ svg {
   color: #35aee4;
 }
 
+h2, h3 {
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
 .pro-Page {
   display: block;
   position: relative;
@@ -47,11 +53,6 @@ svg {
 .page-Section-heading {
   margin-right: 16px;
   font-size: 16pt;
-}
-
-h2, h3 {
-  display: inline-block;
-  font-weight: 600;
 }
 
 .page-Type {
