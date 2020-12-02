@@ -5,10 +5,10 @@
   --page-size-font-small: 10pt;
   --page-size-font: 12pt;
   --page-size-font-large: 16pt;
-  --white: '#fff';
-  --gray50: '#8e999e';
-  --gray60: '#69757a';
-  --green60: '#24a344';
+  --white: #fff;
+  --gray50: #8e999e;
+  --gray60: #69757a;
+  --green60: #24a344;
 }
 
 html {
