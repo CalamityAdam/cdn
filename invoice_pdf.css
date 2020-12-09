@@ -1,21 +1,13 @@
-:root {
-  --page-width: 8.5in;
-  --page-height: 11in;
-  --page-flow: 8px;
-  --page-size-font-small: 10pt;
-  --page-size-font: 12pt;
-  --page-size-font-large: 16pt;
-  --white: #fff;
-  --blue: #35aee4;
-  --gray50: #8e999e;
-  --gray60: #69757a;
-  --green60: #24a344;
-}
 
 html {
   background-color: #fff;
   font-family: canada-type-gibson, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 12pt;
 }
 
 svg {
@@ -32,11 +24,16 @@ h2, h3 {
   display: block;
   position: relative;
   background-color: #fff;
+  height: 11in;
 }
 
-* {
-  box-sizing: border-box;
-  font-size: 12pt;
+.pro-Page table {
+  position: relative;
+  height: 100%;
+}
+
+.page-Logo {
+  margin-bottom: 24px;
 }
 
 .page-Section {
@@ -52,7 +49,14 @@ h2, h3 {
 
 .page-Section-heading {
   margin-right: 16px;
-  font-size: 16pt;
+  margin-bottom: 12px !important;
+  font-size: 20pt;
+}
+
+.page-Section-heading--secondary {
+  margin-right: 16px;
+  margin-bottom: 12px !important;
+  font-size: 14pt;
 }
 
 .page-Type {
@@ -73,21 +77,21 @@ h2, h3 {
   display: block;
 }
 
-.page-Math {
-  padding: 16px 32px;
-  width: 100%;
-}
-
-.page-Math-divider {
-  margin-top: 8px;
-  margin-bottom: 8px;
+.page-Divider {
+  margin-top: 16px;
+  margin-bottom: 16px !important;
   border: 0;
   background-color: #8e999e;
   width: 100%;
   height: 1px;
 }
 
-.page-Math-doubleDivider {
+.page-Math {
+  padding: 16px 32px;
+  width: 100%;
+}
+
+.page-DoubleDivider {
   margin-top: 8px;
   margin-bottom: 8px;
   border-top: 1px solid #8e999e;
@@ -95,6 +99,10 @@ h2, h3 {
   border-bottom: 1px solid #8e999e;
   border-left: 0;
   padding-top: 1px;
+}
+
+.page-Footer {
+  height: 100px;
 }
 
 .page--bold {
