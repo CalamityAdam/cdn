@@ -7,7 +7,7 @@ html {
 
 * {
   box-sizing: border-box;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 svg {
@@ -70,7 +70,7 @@ h2, h3 {
   display: block;
   text-transform: uppercase;
   color: #69757a;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .page-Type-body {
