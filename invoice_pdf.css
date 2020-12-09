@@ -1,3 +1,15 @@
+/*
+  the following is a copy of the .css version of this file found in dr-static.
+  it is imperative that this file does not get compiled into the application with the rest of the stylesheets.
+  currently this stylesheet is being hosted in S3 and is not actually being referenced anywhere locally,
+  instead we are loading the stylesheet directly from the CDN.
+  this is here just for visibility.
+  to test this locally, add `@import 'invoice_pdf/*';` to the bottom of application.scss and add
+  `<%= good_pdf_stylesheet_pack_tag("application") %>` to the `<head>` of pdf.html.erb
+
+  https://github.com/lampo/dr-static/blob/master/public/elp-assets/pro-portal/invoice_pdf.css
+*/
+
 html {
   background-color: #fff;
   font-family: canada-type-gibson, Arial, sans-serif;
@@ -54,7 +66,7 @@ h2, h3 {
 
 .page-Section-heading--secondary {
   margin-right: 16px;
-  margin-bottom: 4px !important;
+  margin-bottom: 2px !important;
   font-size: 14pt;
 }
 
