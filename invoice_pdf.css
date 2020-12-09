@@ -54,7 +54,7 @@ h2, h3 {
 
 .page-Section-heading--secondary {
   margin-right: 16px;
-  margin-bottom: 0 !important;
+  margin-bottom: 2px !important;
   font-size: 14pt;
 }
 
@@ -102,6 +102,10 @@ h2, h3 {
 
 .page-Footer {
   margin-top: 8px !important;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .page--bold {
