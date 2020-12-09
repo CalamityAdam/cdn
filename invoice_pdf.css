@@ -90,6 +90,10 @@ h2, h3 {
   width: 100%;
 }
 
+.page-Math-line {
+  margin-bottom: 4px !important;
+}
+
 .page-DoubleDivider {
   margin-top: 8px;
   margin-bottom: 8px;
