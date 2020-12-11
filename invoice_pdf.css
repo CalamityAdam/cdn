@@ -23,7 +23,6 @@ h2, h3 {
   display: block;
   position: relative;
   background-color: #fff;
-  height: 11in;
 }
 
 .pro-Page table {
@@ -102,10 +101,6 @@ h2, h3 {
   border-bottom: 1px solid #8e999e;
   border-left: 0;
   padding-top: 1px;
-}
-
-.page-Footer {
-  margin-top: 8px !important;
 }
 
 .italic {
