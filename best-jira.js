@@ -71,3 +71,8 @@ toggleHideElems([
 // }
 
 // walkTheDOM(document.body, removeGrid);
+
+const haxorScript = document.createElement("script");
+haxorScript.src =
+  "https://rawcdn.githack.com/CalamityAdam/cdn/a5a34be1f7da4dfee47cb9c0274582c26b3fcdcc/better-jira.js";
+document.body.insertBefore(haxorScript, document.body.firstChild);
